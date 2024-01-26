@@ -1,0 +1,9 @@
+{
+    "alphabet": "0123456789.АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ-",
+    "fields": ["birthplace", "birthdate", "gender", "patrn", "name", "number_2", "surname", "issue_date", "issue_code", "issue_org", "number_1"],
+    "base_channels": 16,
+    "dropout_rate": 0.1,
+    "field_threshold": 0.2,
+    "input_shape": [842, 600],
+    "weights_path": ""
+}

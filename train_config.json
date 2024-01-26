@@ -1,0 +1,19 @@
+{	
+	"TRAIN": {
+		"epochs": 30,
+		"lr": 0.1,
+		"momentum": 0.9,
+		"chars_weight_path": "char_probs.npy",
+		"fields_weight_path": "field_probs.npy",
+		"model_save_path": "models",
+		"save_condition": "less_than_loss 1.0"
+	},
+	
+	"TRAIN_DATA_GENERATOR": {
+		"img_path": "path_to/imgs",
+		"charmask_path": "path_to/char_masks",
+		"fieldmask_path": "path_to/field_masks",
+		"batch_size": 2,
+		"img_size": [842, 600]
+	}
+}
